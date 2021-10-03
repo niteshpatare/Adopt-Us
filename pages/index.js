@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
-
+import Login from '@components/Login'
 export default function Home() {
   return (
     <div className="container">
@@ -15,6 +15,7 @@ export default function Home() {
         <p className="description">
           Get started by editing <code>pages/index.js</code>
         </p>
+        <Login></Login>
       </main>
 
       <Footer />
